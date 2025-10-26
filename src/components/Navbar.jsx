@@ -17,17 +17,17 @@ export default function Navbar() {
           </a>
 
           <nav className="hidden md:flex items-center gap-8 text-sm text-slate-300">
-            <a href="#features" className="hover:text-white transition">Features</a>
-            <a href="#security" className="hover:text-white transition">Security</a>
-            <a href="#get-started" className="hover:text-white transition">Get Started</a>
+            <a href="#/meet" className="hover:text-white transition">Start</a>
+            <a href="#/meet" className="hover:text-white transition">Join</a>
+            <a href="#" className="hover:text-white transition">About</a>
           </nav>
 
           <div className="flex items-center gap-3">
-            <a href="#security" className="hidden sm:flex items-center gap-2 text-xs sm:text-sm text-slate-300 hover:text-white transition">
-              <Shield className="h-4 w-4 text-emerald-400" /> E2EE
-            </a>
+            <span className="hidden sm:flex items-center gap-2 text-xs sm:text-sm text-slate-300">
+              <Shield className="h-4 w-4 text-emerald-400" /> E2EE-capable
+            </span>
             <a
-              href="#get-started"
+              href="#/meet"
               className="inline-flex items-center gap-2 rounded-md bg-gradient-to-r from-cyan-500 to-blue-600 px-3 sm:px-4 py-2 text-xs sm:text-sm font-medium shadow-lg shadow-cyan-600/30 hover:brightness-110 active:brightness-95 transition"
             >
               <Rocket className="h-4 w-4" /> Launch
